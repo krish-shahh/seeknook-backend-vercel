@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "api/**/*.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/api/admin", "dest": "/api/admin/index.js" },
+      { "src": "/api/business", "dest": "/api/business/index.js" },
+      { "src": "/api/franchise", "dest": "/api/franchise/index.js" },
+      { "src": "/api/listings", "dest": "/api/listings/index.js" },
+      { "src": "/api/messages", "dest": "/api/messages/index.js" },
+      { "src": "/api/service", "dest": "/api/service/index.js" }
+    ]
+  }
+  
